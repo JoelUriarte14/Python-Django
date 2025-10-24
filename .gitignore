@@ -1,0 +1,17 @@
+/venv/
+
+# Ignorar la base de datos local
+# (Cada desarrollador debe crear la suya con 'migrate')
+*.sqlite3
+db.sqlite3
+
+# Ignorar los archivos compilados de Python y caché
+__pycache__/
+*.pyc
+.cache/
+
+# Ignorar archivos del editor (ej. VSCode)
+.vscode/
+
+# Ignorar archivos de sistema (ej. macOS)
+.DS_Store
